@@ -1,0 +1,95 @@
+$sizeTitulos:50px;
+$sizeSubtitulos:25px;
+$sizeTextos:20px;
+$sizeNavBar:25px;
+$sizeFooter:20px;
+
+$anchoFondoIndexDesktop:700px;
+$altoFondoIndexDesktop:450px;
+
+$anchoFondoIndexMobile:150px;
+$altoFondoIndexMobile:100px;
+
+$anchoFondoIndexTablet:250px;
+$altoFondoIndexTablet:200px;
+
+$anchoLogo: 130px;
+
+.contenedorContenido__contenedorHistoria__titulo--font{
+    font-size: $sizeTitulos;
+    font-family: 'Lato', sans-serif, '700';
+}
+
+.contenedorContenido__contenedorHistoria__subTitulo--font{
+    font-size: $sizeSubtitulos;
+    font-family: 'Lato', sans-serif, '700';
+}
+
+.contenedorContenido__contenedorHistoria__parrafoPrincipal--font{
+    font-size: $sizeTextos;
+    font-family: 'Lato', sans-serif, '300';
+    text-align: justify;
+}
+
+.contenedorContenido__contenedorHistoria__subContenido--font{
+    font-size: $sizeTextos;
+    font-family: 'Lato', sans-serif, '300';
+    font-style: oblique;
+}
+
+.contenedorContenido__contenedorMultimedia__fondoIndex--tamanio{
+    @media only screen and (min-width: 0px) and (max-width: 767px){
+        height: $altoFondoIndexMobile;
+        width: $anchoFondoIndexMobile;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px){
+        height: $altoFondoIndexTablet;
+        width: $anchoFondoIndexTablet;
+    }
+
+    @media only screen and (min-width: 1025px){
+        height: $altoFondoIndexDesktop;
+        width: $anchoFondoIndexDesktop;
+    }
+
+}
+.contenedorContenido__contenedorMultimedia__videoIndex--tamanio{
+    @media only screen and (min-width: 0px) and (max-width: 767px){
+        height: $altoFondoIndexMobile;
+        width: $anchoFondoIndexMobile;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px){
+        height: $altoFondoIndexTablet;
+        width: $anchoFondoIndexTablet;
+    }
+
+    @media only screen and (min-width: 1025px){
+        height: $altoFondoIndexDesktop;
+        width: $anchoFondoIndexDesktop;
+    }
+}
+
+.containerHeader__contenedorLogo__logo--tamanio{
+    width: $anchoLogo;
+}
+
+.contenedorNav__listaNavBar--font li a{
+    font-family: 'Lato', sans-serif, '100';
+    font-size: 25px;
+}
+
+.container-fluid__contenedorFooter .pFooter{
+    font-family: 'Lato', sans-serif, '100';
+    font-size: $sizeFooter;
+}
+
+/*
+.contenedorNav li a{
+    font-size: $sizeNavBar;
+}
+
+.contenedorFooter a{
+    font-size: $sizeFooter;
+}*/

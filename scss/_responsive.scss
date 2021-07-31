@@ -1,0 +1,168 @@
+$flex:flex;
+$row:row;
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.contenedorContenido__contenedorMultimedia--flex{
+    display: $flex;
+    flex-direction: $row;
+    justify-content: space-around;
+}
+
+.container-fluid__contenedorHeader--flex{
+    @media only screen and (min-width: 0px) and (max-width: 767px){
+        position: relative;
+        display: $flex;
+        flex: $row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    @media screen and (min-width: 1025px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-basis: max-content;
+    }
+    
+}
+
+.container-fluid__containerHeader__contenedorLogo--flex{
+    display: $flex;
+    flex-direction: $row;
+    justify-content: center;
+}
+
+.contenedorHeader__contenedorNav--flex{
+    display: $flex;
+    flex-direction: $row;
+    justify-content: flex-end;
+}
+
+.contenedorNav__listaNavBar--flex{
+    display: $flex;
+    flex-direction: $row;
+    justify-content: center;
+    flex-wrap: wrap;
+    @media screen and (min-width: 0px) and (max-width: 767px){
+        .contenedorNav__listaNavBar--flex li a{
+            font-size: 20px;
+            display: $flex;
+            flex: $row;
+            justify-content: center;
+        }
+    }
+}
+
+.container-fluid__contenedorFooter .contenedorRedes{
+    @media screen and (min-width: 0px) and (max-width: 767px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: center;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: center;
+    }
+    @media screen and (min-width: 1025px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: center;
+    }
+}
+
+.container-fluid__contenedorFooter .contenedorDerechos{
+    @media screen and (min-width: 0px) and (max-width: 767px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: space-around;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: center;
+    }
+    @media screen and (min-width: 1025px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: center;
+    }
+}
+
+.container-fluid__contenedorFooter .contenedorContacto{
+    @media screen and (min-width: 0px) and (max-width: 767px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: space-around;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: space-around;
+    }
+    @media screen and (min-width: 1025px){
+        display: $flex;
+        flex-direction: $row;
+        justify-content: space-around;
+    }
+}
+
+.contenedorContenido .contenedorForm{
+    display: $flex;
+    flex-direction: $row;
+    justify-content: space-around;   
+}
+
+.formContacto{
+    display: $flex;
+    flex-direction: $row;
+    justify-content: center;
+    border: #000000 1px solid;
+    padding: 10px;
+}
+
+table { 
+    border: 3px solid;
+    background-color:#a10505;
+    width: auto;
+    margin: auto;
+   }
+  
+th {
+    background-color:#cccccc;
+    border: 1px solid;
+    text-align: center;
+   }
+  
+tr, td {
+    border: 1px solid;
+    background-color:#f16932;
+}
+
+@for $i from 1 through 2 {
+    .contenedorGaleria__fila#{$i}{
+        display: $flex;
+        flex-direction: $row;
+        align-items: center;
+        border: 2px white solid;
+    }
+}
+
+
+@for $i from 1 through 3 {
+    .contenedorGaleria__col#{$i}{
+        width: 100%/3;
+        height: 100%;
+    }
+}
+

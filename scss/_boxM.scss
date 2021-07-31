@@ -1,0 +1,73 @@
+$centrado: center;
+$paddingTitulo: 20px;
+$paddingL_SubTitulo: 30px;
+$paddingT_SubTitulo: 25px;
+$paddingL_ParrafoPrincipal: 50px;
+$paddingT_ParrafoPrincipal: 10px;
+$paddingB_ParrafoPrincipal: 10px;
+
+$navSticky: sticky;
+
+.container-fluid__contenedorHeader--boxM{
+    position: $navSticky;
+    top: 0px;
+    z-index: 3;
+}
+
+.contenedorContenido__contenedorHistoria__titulo--boxM{
+    padding: $paddingTitulo;
+    text-align: $centrado;
+}
+
+.contenedorContenido__contenedorHistoria__subTitulo--boxM{
+    padding-left: $paddingL_SubTitulo;
+    padding-top: $paddingT_SubTitulo;
+}
+
+.contenedorContenido__contenedorHistoria__parrafoPrincipal--boxM{
+    padding-left: $paddingL_ParrafoPrincipal;
+    padding-top: $paddingT_ParrafoPrincipal;
+    padding-bottom: $paddingB_ParrafoPrincipal;
+    border-top: 1px solid;
+}
+
+.contenedorContenido__contenedorHistoria__subContenido--boxM{
+    padding-left: $paddingL_ParrafoPrincipal;
+    padding-bottom: $paddingB_ParrafoPrincipal;
+}
+
+.contenedorContenido__contenedorMultimedia__fondoIndex--boxM{
+    border: 1px solid;
+}
+
+.contenedorNav__listaNavBar--boxM li a{
+    text-decoration: none;
+    padding: 20px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.container-fluid__contenedorAnteriorFooter--boxM{
+    padding: 20px;
+}
+
+.container-fluid__contenedorFooter{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0px;
+}
+
+.formContacto .textFocus{
+    width: 150px;
+    height: 20px;
+    transition: all 1s;
+}
+
+.formContacto .textFocus:focus{
+    width: 170px;
+    font-size: 18px;
+}
+
+.listaDisco{
+    padding: 30px;
+}
