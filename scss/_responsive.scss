@@ -131,20 +131,20 @@ body{
     padding: 10px;
 }
 
-table { 
+.contenedorTabla { 
     border: 3px solid;
     background-color:#a10505;
     width: auto;
     margin: auto;
    }
   
-th {
+.contenedorTabla th {
     background-color:#cccccc;
     border: 1px solid;
     text-align: center;
    }
   
-tr, td {
+.contenedorTabla tr, .contenedorTabla td {
     border: 1px solid;
     background-color:#f16932;
 }
@@ -166,3 +166,16 @@ tr, td {
     }
 }
 
+.contenedorTabla{
+    @media screen and (min-width: 0px) and (max-width: 767px){
+        border: 3px solid;
+        background-color:#a10505;
+        width: auto;
+        margin: auto;
+        font-size: 10px;
+    }
+    & th{
+        font-size: 15px;
+        text-align: center;
+    }
+}
