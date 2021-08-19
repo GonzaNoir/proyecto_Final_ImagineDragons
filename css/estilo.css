@@ -50,15 +50,19 @@ a .listaNavBar__local--color {
   text-decoration: none;
   color: #ff6207; }
 
-.parallax1 {
-  background-image: url("img/foto-inicio-tierra.png"); }
+/*
+.parallax1{
+    background-image: url('img/foto-inicio-tierra.png');
+}
 
-.parallax2 {
-  background-image: url("img/foto-inicio-banda.png"); }
+.parallax2{
+    background-image: url('img/foto-inicio-banda.png');
+}
 
-.parallax3 {
-  background-image: url("img/foto-inicio-cielo.png"); }
-
+.parallax3{
+    background-image: url('img/foto-inicio-cielo.png');
+}
+*/
 .contenedorContenido__contenedorHistoria__titulo--font {
   font-size: 50px;
   font-family: 'Lato', sans-serif, '700'; }
