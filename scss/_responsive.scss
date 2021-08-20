@@ -39,13 +39,13 @@ body{
 .container-fluid__containerHeader__contenedorLogo--flex{
     display: $flex;
     flex-direction: $row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .contenedorHeader__contenedorNav--flex{
     display: $flex;
     flex-direction: $row;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .contenedorNav__listaNavBar--flex{
@@ -178,5 +178,11 @@ body{
         font-size: 15px;
         text-align: center;
     }
+}
+
+.imagenInicioBanda{
+    position: relative;
+    top: -60px;
+    z-index: 1;
 }
 

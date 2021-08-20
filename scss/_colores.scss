@@ -1,11 +1,27 @@
 $colorTitulos:rgb(255, 81, 0);
-$colorNav:rgb(0, 0, 0);
+$colorNav:rgb(27, 26, 23);
 $colorFondo: rgb(142, 247, 168);
 $colorSubTextos: rgba(0, 0, 0, 0.815);
 $colorTextos:rgb(2, 2, 2);
 
 .container-fluid__contenedorHeader--color{
-    background-color: $colorNav;
+    background: $colorNav;
+}
+
+.contenedorHeader{
+    background: $colorNav;
+}
+
+.seccionTitulo{
+    background: rgb(240, 227, 202);
+}
+
+.seccionHistoria{
+    background: rgb(163, 87, 9);
+}
+
+.seccionPremios{
+    background: rgb(240, 227, 202);
 }
 
 .contenedorContenido{
@@ -52,12 +68,21 @@ a .listaNavBar__local--color{
 }
 
 .container-fluid__contenedorAnteriorFooter--color{
-    background-color:#000000;
-    background: linear-gradient(to bottom, rgb(142, 247, 168), #000000);
+    background-color:rgb(27, 26, 23);
+    background: linear-gradient(to bottom, rgb(240, 227, 202), rgb(27, 26, 23));
+}
+
+.seccionAnteriorFooter{
+    background-color:rgb(27, 26, 23);
+    background: linear-gradient(to bottom, rgb(240, 227, 202), rgb(27, 26, 23));
 }
 
 .container-fluid__contenedorFooter{
-    background-color:#000000;
+    background-color:rgb(27, 26, 23);
+}
+
+.contenedorFooter{
+    background: rgb(27, 26, 23);
 }
 
 .container-fluid__contenedorFooter .pFooter{

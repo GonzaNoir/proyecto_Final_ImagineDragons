@@ -1,5 +1,17 @@
 .container-fluid__contenedorHeader--color {
-  background-color: black; }
+  background: #1b1a17; }
+
+.contenedorHeader {
+  background: #1b1a17; }
+
+.seccionTitulo {
+  background: #f0e3ca; }
+
+.seccionHistoria {
+  background: #a35709; }
+
+.seccionPremios {
+  background: #f0e3ca; }
 
 .contenedorContenido {
   background-color: #8ef7a8; }
@@ -33,11 +45,18 @@ a .listaNavBar__local--color {
     text-decoration: none; }
 
 .container-fluid__contenedorAnteriorFooter--color {
-  background-color: #000000;
-  background: linear-gradient(to bottom, #8ef7a8, #000000); }
+  background-color: #1b1a17;
+  background: linear-gradient(to bottom, #f0e3ca, #1b1a17); }
+
+.seccionAnteriorFooter {
+  background-color: #1b1a17;
+  background: linear-gradient(to bottom, #f0e3ca, #1b1a17); }
 
 .container-fluid__contenedorFooter {
-  background-color: #000000; }
+  background-color: #1b1a17; }
+
+.contenedorFooter {
+  background: #1b1a17; }
 
 .container-fluid__contenedorFooter .pFooter {
   color: white; }
@@ -148,12 +167,12 @@ body {
 .container-fluid__containerHeader__contenedorLogo--flex {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: space-between; }
 
 .contenedorHeader__contenedorNav--flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: flex-end; }
 
 .contenedorNav__listaNavBar--flex {
   display: flex;
@@ -284,7 +303,12 @@ body {
   font-size: 15px;
   text-align: center; }
 
-.container-fluid__contenedorHeader--boxM {
+.imagenInicioBanda {
+  position: relative;
+  top: -60px;
+  z-index: 1; }
+
+.contenedorHeader {
   position: sticky;
   top: 0px;
   z-index: 3; }
