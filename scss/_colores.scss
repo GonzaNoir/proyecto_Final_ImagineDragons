@@ -1,4 +1,4 @@
-$colorTitulos:rgb(255, 81, 0);
+$colorTitulos:rgb(255, 131, 3);
 $colorNav:rgb(27, 26, 23);
 $colorFondo: rgb(142, 247, 168);
 $colorSubTextos: rgba(0, 0, 0, 0.815);
@@ -11,9 +11,35 @@ $colorTextos:rgb(2, 2, 2);
 .contenedorHeader{
     background: $colorNav;
 }
-
+/*
 .seccionTitulo{
-    background: rgb(240, 227, 202);
+    background-image: url('../img/foto-parallax2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    //transform: scale(1.2);
+}
+*/
+.parallax__container {
+	clip: rect(0, auto, auto, 0);
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -100;
+}
+
+.parallax {
+	position: fixed;
+	top: 0;
+	transform: translate3d(0, 0, 0);
+	transform-style: preserve-3d;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .seccionHistoria{
@@ -50,7 +76,7 @@ p .palabrasOblicuas{
     font-style: oblique;
 }
 
-.contenedorNav__listaNavBar--color li a{
+#navbarNav{
     color: rgba(255, 255, 255, 0.89);
     &:hover{
         color: rgb(255, 98, 7);

@@ -4,8 +4,34 @@
 .contenedorHeader {
   background: #1b1a17; }
 
-.seccionTitulo {
-  background: #f0e3ca; }
+/*
+.seccionTitulo{
+    background-image: url('../img/foto-parallax2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    //transform: scale(1.2);
+}
+*/
+.parallax__container {
+  clip: rect(0, auto, auto, 0);
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -100; }
+
+.parallax {
+  position: fixed;
+  top: 0;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .seccionHistoria {
   background: #a35709; }
@@ -17,10 +43,10 @@
   background-color: #8ef7a8; }
 
 .contenedorContenido__contenedorHistoria__titulo--color {
-  color: #ff5100; }
+  color: #ff8303; }
 
 .contenedorContenido__contenedorHistoria__subTitulo--color {
-  color: #ff5100; }
+  color: #ff8303; }
 
 .contenedorContenido__contenedorHistoria__parrafoPrincipal--color {
   color: #020202; }
@@ -33,9 +59,9 @@ p .palabrasOblicuas {
   cursor: text;
   font-style: oblique; }
 
-.contenedorNav__listaNavBar--color li a {
+#navbarNav {
   color: rgba(255, 255, 255, 0.89); }
-  .contenedorNav__listaNavBar--color li a:hover {
+  #navbarNav:hover {
     color: #ff6207; }
 
 a .listaNavBar__local--color {
@@ -69,13 +95,34 @@ a .listaNavBar__local--color {
   text-decoration: none;
   color: #ff6207; }
 
+@font-face {
+  font-family: 'DevilBreezeBold';
+  src: url("../fonts/Devil Breeze Bold.ttf"); }
+
+@font-face {
+  font-family: 'DevilBreezeBook';
+  src: url("../fonts/Devil Breeze Book.ttf"); }
+
+@font-face {
+  font-family: 'DevilBreezeDemi';
+  src: url("../fonts/Devil Breeze Demi.ttf"); }
+
+@font-face {
+  font-family: 'DevilBreezeLight';
+  src: url("../fonts/Devil Breeze Light.ttf"); }
+
+@font-face {
+  font-family: 'DevilBreezeMedium';
+  src: url("../fonts/Devil Breeze Medium.ttf"); }
+
 .contenedorContenido__contenedorHistoria__titulo--font {
-  font-size: 50px;
-  font-family: 'Lato', sans-serif, '700'; }
+  font-size: 100px;
+  font-family: 'DevilBreezeBold'; }
 
 .contenedorContenido__contenedorHistoria__subTitulo--font {
   font-size: 25px;
-  font-family: 'Lato', sans-serif, '700'; }
+  font-family: 'DevilBreezeDemi';
+  text-align: center; }
 
 .contenedorContenido__contenedorHistoria__parrafoPrincipal--font {
   font-size: 20px;
@@ -99,7 +146,7 @@ a .listaNavBar__local--color {
 
 @media only screen and (min-width: 1025px) {
   .contenedorContenido__contenedorMultimedia__fondoIndex--tamanio {
-    height: 450px;
+    height: 350px;
     width: 700px; } }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -114,7 +161,7 @@ a .listaNavBar__local--color {
 
 @media only screen and (min-width: 1025px) {
   .contenedorContenido__contenedorMultimedia__videoIndex--tamanio {
-    height: 450px;
+    height: 350px;
     width: 700px; } }
 
 .containerHeader__contenedorLogo__logo--tamanio {
@@ -145,7 +192,7 @@ body {
 
 .contenedorContenido__contenedorMultimedia--flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -318,17 +365,17 @@ body {
   text-align: center; }
 
 .contenedorContenido__contenedorHistoria__subTitulo--boxM {
-  padding-left: 30px;
-  padding-top: 25px; }
+  padding-left: 30px; }
 
 .contenedorContenido__contenedorHistoria__parrafoPrincipal--boxM {
-  padding-left: 50px;
+  padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 25px;
   border-top: 1px solid; }
 
 .contenedorContenido__contenedorHistoria__subContenido--boxM {
-  padding-left: 50px;
+  padding-left: 25px;
   padding-bottom: 10px; }
 
 .contenedorContenido__contenedorMultimedia__fondoIndex--boxM {
@@ -359,3 +406,11 @@ body {
 
 .listaDisco {
   padding: 30px; }
+
+.seccionTitulo {
+  padding-top: 16.5%;
+  padding-bottom: 16.5%; }
+
+.paddingSeccion {
+  padding-top: 15px;
+  padding-bottom: 15px; }

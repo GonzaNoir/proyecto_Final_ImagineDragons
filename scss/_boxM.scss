@@ -2,7 +2,7 @@ $centrado: center;
 $paddingTitulo: 20px;
 $paddingL_SubTitulo: 30px;
 $paddingT_SubTitulo: 25px;
-$paddingL_ParrafoPrincipal: 50px;
+$paddingL_ParrafoPrincipal: 25px;
 $paddingT_ParrafoPrincipal: 10px;
 $paddingB_ParrafoPrincipal: 10px;
 
@@ -21,13 +21,14 @@ $navSticky: sticky;
 
 .contenedorContenido__contenedorHistoria__subTitulo--boxM{
     padding-left: $paddingL_SubTitulo;
-    padding-top: $paddingT_SubTitulo;
+    //padding-top: $paddingT_SubTitulo;
 }
 
 .contenedorContenido__contenedorHistoria__parrafoPrincipal--boxM{
     padding-left: $paddingL_ParrafoPrincipal;
     padding-top: $paddingT_ParrafoPrincipal;
     padding-bottom: $paddingB_ParrafoPrincipal;
+    padding-right: 25px;
     border-top: 1px solid;
 }
 
@@ -70,4 +71,14 @@ $navSticky: sticky;
 
 .listaDisco{
     padding: 30px;
+}
+
+.seccionTitulo{
+    padding-top: 16.5%;
+    padding-bottom: 16.5%;
+}
+
+.paddingSeccion{
+    padding-top: 15px;
+    padding-bottom: 15px;
 }

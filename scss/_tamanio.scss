@@ -1,11 +1,11 @@
-$sizeTitulos:50px;
+$sizeTitulos:100px;
 $sizeSubtitulos:25px;
 $sizeTextos:20px;
 $sizeNavBar:25px;
 $sizeFooter:20px;
 
 $anchoFondoIndexDesktop:700px;
-$altoFondoIndexDesktop:450px;
+$altoFondoIndexDesktop:350px;
 
 $anchoFondoIndexMobile:150px;
 $altoFondoIndexMobile:100px;
@@ -15,14 +15,40 @@ $altoFondoIndexTablet:200px;
 
 $anchoLogo: 130px;
 
+@font-face{
+    font-family: 'DevilBreezeBold';
+    src: url('../fonts/Devil\ Breeze\ Bold.ttf');
+}
+
+@font-face{
+    font-family: 'DevilBreezeBook';
+    src: url('../fonts/Devil\ Breeze\ Book.ttf');
+}
+
+@font-face{
+    font-family: 'DevilBreezeDemi';
+    src: url('../fonts/Devil\ Breeze\ Demi.ttf');
+}
+
+@font-face{
+    font-family: 'DevilBreezeLight';
+    src: url('../fonts/Devil\ Breeze\ Light.ttf');
+}
+
+@font-face{
+    font-family: 'DevilBreezeMedium';
+    src: url('../fonts/Devil\ Breeze\ Medium.ttf');
+}
+
 .contenedorContenido__contenedorHistoria__titulo--font{
     font-size: $sizeTitulos;
-    font-family: 'Lato', sans-serif, '700';
+    font-family: 'DevilBreezeBold';
 }
 
 .contenedorContenido__contenedorHistoria__subTitulo--font{
     font-size: $sizeSubtitulos;
-    font-family: 'Lato', sans-serif, '700';
+    font-family: 'DevilBreezeDemi';
+    text-align: center;
 }
 
 .contenedorContenido__contenedorHistoria__parrafoPrincipal--font{
