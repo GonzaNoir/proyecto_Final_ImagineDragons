@@ -43,6 +43,9 @@ $anchoLogo: 130px;
 .contenedorContenido__contenedorHistoria__titulo--font{
     font-size: $sizeTitulos;
     font-family: 'DevilBreezeBold';
+    @media only screen and (min-width: 0px) and (max-width: 767px){
+        font-size: 50px;
+    }
 }
 
 .contenedorContenido__contenedorHistoria__subTitulo--font{
@@ -106,8 +109,8 @@ $anchoLogo: 130px;
     font-size: 25px;
 }
 
-.container-fluid__contenedorFooter .pFooter{
-    font-family: 'Lato', sans-serif, '100';
+.pFooter{
+    font-family: 'DevilBreezeMedium';
     font-size: $sizeFooter;
 }
 

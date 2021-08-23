@@ -84,7 +84,7 @@ a .listaNavBar__local--color {
 .contenedorFooter {
   background: #1b1a17; }
 
-.container-fluid__contenedorFooter .pFooter {
+.pFooter {
   color: white; }
 
 .contenedorContacto a {
@@ -118,6 +118,9 @@ a .listaNavBar__local--color {
 .contenedorContenido__contenedorHistoria__titulo--font {
   font-size: 100px;
   font-family: 'DevilBreezeBold'; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .contenedorContenido__contenedorHistoria__titulo--font {
+      font-size: 50px; } }
 
 .contenedorContenido__contenedorHistoria__subTitulo--font {
   font-size: 25px;
@@ -171,8 +174,8 @@ a .listaNavBar__local--color {
   font-family: 'Lato', sans-serif, '100';
   font-size: 25px; }
 
-.container-fluid__contenedorFooter .pFooter {
-  font-family: 'Lato', sans-serif, '100';
+.pFooter {
+  font-family: 'DevilBreezeMedium';
   font-size: 20px; }
 
 /*
@@ -197,7 +200,6 @@ body {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .container-fluid__contenedorHeader--flex {
-    position: relative;
     display: flex;
     flex: row;
     justify-content: space-around;
@@ -233,6 +235,11 @@ body {
       flex: row;
       justify-content: center; } }
 
+.contenedorRedesResponsive {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .container-fluid__contenedorFooter .contenedorRedes {
     display: flex;
@@ -252,22 +259,43 @@ body {
     justify-content: center; } }
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
-  .container-fluid__contenedorFooter .contenedorDerechos {
+  .container-fluid__contenedorFooter .contenedorRedesIconos {
     display: flex;
     flex-direction: row;
     justify-content: space-around; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container-fluid__contenedorFooter .contenedorRedesIconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
+
+@media screen and (min-width: 1025px) {
+  .container-fluid__contenedorFooter .contenedorRedesIconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; } }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
   .container-fluid__contenedorFooter .contenedorDerechos {
     display: flex;
     flex-direction: row;
-    justify-content: center; } }
+    justify-content: space-around;
+    align-items: center; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container-fluid__contenedorFooter .contenedorDerechos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; } }
 
 @media screen and (min-width: 1025px) {
   .container-fluid__contenedorFooter .contenedorDerechos {
     display: flex;
     flex-direction: row;
-    justify-content: center; } }
+    justify-content: center;
+    align-items: center; } }
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .container-fluid__contenedorFooter .contenedorContacto {
@@ -355,6 +383,13 @@ body {
   top: -60px;
   z-index: 1; }
 
+.logoFooter--responsive {
+  display: flex;
+  display: row;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
 .contenedorHeader {
   position: sticky;
   top: 0px;
@@ -414,3 +449,17 @@ body {
 .paddingSeccion {
   padding-top: 15px;
   padding-bottom: 15px; }
+
+.paddingFooter {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.paddingContentFooter {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.borderDerecho {
+  border-right: 3px solid white; }
+
+.borderBottom {
+  border-bottom: 1px solid white; }
