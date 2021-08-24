@@ -1,143 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <!-- link google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="../img/logo.png">
-    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
     <link rel="stylesheet" href="../css/estilo.css">
     <title>¿Como Contactarnos?</title>
 </head>
+
 <body>
-    <div class="container-fluid">
-        <!-- inicio header -->
-        <header class="row container-fluid__contenedorHeader--boxM container-fluid__contenedorHeader--color">
-            <div class="col-lg-4 col-xs-6 container-fluid__containerHeader__contenedorLogo--flex">
-                <img src="../img/logo.png" alt="" class="containerHeader__contenedorLogo__logo--tamanio">
-            </div>
-            <!-- inicio nav -->
-            <!-- <nav>
-                <ul class="listaNav">
-                    <li><a href="../index.html" >Home</a></li>
-                    <li><a href="galeria.html" >Galeria</a></li>
-                    <li><a href="discografia.html" >Discografía</a></li>
-                    <li><a class="local">Nosotros</a></li>
-                    <li><a href="contacto.html" >Contacto</a></li>
-                </ul>
-            </nav> -->
-            <!-- cierre nav -->
-            <div class="col-lg-8 col-xs-6 contenedorHeader__contenedorNav--flex">
-                <nav class="navbar navbar-expand-lg navbar-dark contenedorNav__listaNavBar--flex contenedorNav__listaNavBar--color contenedorNav__listaNavBar--font contenedorNav__listaNavBar--boxM">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link local" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="galeria.html">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="discografia.html">Discografia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="nosotros.html" class="nav-link">Nosotros</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a href="" class="nav-link">Contacto <span class="sr-only">(current)</span></a>
-                        </li>
+    <header class="contenedorHeader ">
+        <div class="container">
+            <div class="row container-fluid__contenedorHeader--boxM container-fluid__contenedorHeader--color ">
+                <div class="col-lg-4 col-xs-6 container-fluid__containerHeader__contenedorLogo--flex">
+                    <img src="../img/logo.png" alt="" class="containerHeader__contenedorLogo__logo--tamanio">
+                </div>
+                <div class="col-lg-8 col-xs-6 contenedorHeader__contenedorNav--flex">
+                    <!-- <nav class="contenedorNav">
+                      <ul class="listaNav">
+                          <li><a class="local">Home</a></li>
+                          <li><a href="views/discografia.html">Galeria </a></li>
+                          <li><a href="views/discografia.html">Discografía </a></li>
+                          <li><a href="views/nosotros.html">Nosotros </a></li>
+                          <li><a href="views/contacto.html">Contacto </a></li>
                       </ul>
-                    </div>
-                </nav>
+                  </nav> -->
+                    <nav
+                        class="navbar navbar-expand-lg navbar-dark contenedorNav__listaNavBar--flex contenedorNav__listaNavBar--color contenedorNav__listaNavBar--font contenedorNav__listaNavBar--boxM">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../views/galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../views/discografia.html">Discografia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../views/nosotros.html" class="nav-link">Nosotros</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a href="" class="nav-link listaNavBar__local--color">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
-        </header>
-        <!-- fin header -->
-        
-        <div class="row contenedorContenido">
-            <div class="col-lg-12 col-xs-12">
-                <h1 class="contenedorContenido__contenedorHistoria__titulo--font contenedorContenido__contenedorHistoria__titulo--boxM contenedorContenido__contenedorHistoria__titulo--color"> Contacto </h1>
-            </div>
-            <div class="col-lg-12 col-xs-12 contenedorForm">
-                <!-- inicio form -->
-                <form action="" class="formContacto">
-                    <fieldset>
-                        <legend class="contenedorContenido__contenedorHistoria__titulo--boxM">Informacion Personal</legend>
-                        <a>Nombre:</a>
-                        <br>
-                        <input type="text" placeholder="Nombre" class="textFocus"><br>
-                        <br>
-                        <a>Apellido:</a>
-                        <br>
-                        <input type="text" placeholder="Apellido" class="textFocus"><br>
-                        <br>
-                        <a>Email:</a>
-                        <br>
-                        <input type="text" placeholder="Email" class="textFocus"><br>
-                        <br>
-                        <label for="Sexo">
-                            Sexo:
-                            <br>
-                            <input type="radio" name="sexo">hombre <input type="radio" name="sexo">mujer <input type="radio" name="sexo">otro
-                        </label>
-                        <br>
-                        <br>
-                        <a>Estado Civil:</a>
-                        <select name="estado_c" id="estado_c">
-                            <option value="A">Soltero/a</option>
-                            <option value="B">Casado/a</option>
-                        </select>
-                        <br>
-                        <br>
-                        <a>¿Desea Recibir Noticias de la Pagina?</a>
-                        <input type="checkbox">
-                        <br>
-                        <br>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
-                        <br>
-                        <br>
-                        <input type="reset" value="Limpiar formulario" name="Limpiar">
-                        <input type="submit" value="Enviar">
-                    </fieldset>
-                </form>
-                <!-- fin form -->                
+            <!-- <header class="row">
+              <img src="img/logo.png" alt="" class="logo">
+              <nav>
+                  <ul class="listaNav">
+                      <li><a class="local">Home</a></li>
+                      <li><a href="views/galeria.html">Galeria </a></li>
+                      <li><a href="views/discografia.html">Discografía </a></li>
+                      <li><a href="views/nosotros.html">Nosotros </a></li>
+                      <li><a href="views/contacto.html">Contacto </a></li>
+                  </ul>
+              </nav>
+          </header> -->
+
+        </div>
+    </header>
+    <!-- fin header -->
+    <section class="seccionPremios paddingSeccion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12">
+                    <h1
+                        class="contenedorContenido__contenedorHistoria__titulo--font contenedorContenido__contenedorHistoria__titulo--boxM contenedorContenido__contenedorHistoria__titulo--color">
+                        Contacto </h1>
+                </div>
+                <div class="col-lg-12 col-xs-12 ">
+                    <!-- inicio form -->
+                    <section class="get-in-touch">
+                        <h1 class="title">Contactate con Nosotros</h1>
+                        <form class="contact-form row">
+                           <div class="form-field col-lg-6">
+                              <input id="name" class="input-text js-input" type="text" required>
+                              <label class="label" for="name">Nombre</label>
+                           </div>
+                           <div class="form-field col-lg-6 ">
+                              <input id="email" class="input-text js-input" type="email" required>
+                              <label class="label" for="email">E-mail</label>
+                           </div>
+                           <div class="form-field col-lg-6 ">
+                              <input id="company" class="input-text js-input" type="text" required>
+                              <label class="label" for="company">Nombre de la Compañia</label>
+                           </div>
+                            <div class="form-field col-lg-6 ">
+                              <input id="phone" class="input-text js-input" type="text" required>
+                              <label class="label" for="phone">Numero de Contacto</label>
+                           </div>
+                           <div class="form-field col-lg-12">
+                              <input id="message" class="input-text js-input" type="text" required>
+                              <label class="label" for="message">Mensaje</label>
+                           </div>
+                           <div class="form-field col-lg-12">
+                              <input class="submit-btn" type="submit" value="Enviar">
+                           </div>
+                        </form>
+                     </section>
+                    <!-- fin form -->
+                </div>
             </div>
         </div>
-        
-        <!-- inicio footer -->
-        <div class="row container-fluid__contenedorAnteriorFooter--boxM container-fluid__contenedorAnteriorFooter--color">
-            <div class="col-lg-12 col-xs-12"></div>
+    </section>
+
+    <section class="seccionAnteriorFooter">
+        <div class="container">
+            <div
+                class="row container-fluid__contenedorAnteriorFooter--boxM container-fluid__contenedorAnteriorFooter--color">
+                <div class="col-lg-12 col-xs-12"></div>
+            </div>
         </div>
-        <footer class="row container-fluid__contenedorFooter">
-            <div class="col-lg-4 col-xs-4 contenedorRedes">
-                <p class="pFooter">Redes Sociales</p>
+    </section>
+
+    <!-- inicio footer -->
+
+    <footer class="contenedorFooter paddingFooter">
+        <div class="container">
+            <div class="row container-fluid__contenedorFooter">
+                <div class="col-lg-4 col-xs-4 contenedorRedesResponsive paddingContentFooter borderDerecho">
+                    <span class="pFooter contenedorRedes">Redes Sociales</span>
+                    <section class="contenedorRedesIconos">
+                        <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA" target="_blank"><img
+                                src="../img/icono-youtube.png" alt="Link a youtube"></a>
+                        <a href="https://www.instagram.com/imaginedragons/" target="_blank"><img
+                                src="../img/icono-instagram.png" alt="Link a instagram"></a>
+                        <a href="https://twitter.com/Imaginedragons" target="_blank"><img src="../img/icono-twitter.png"
+                                alt="Link a twitter"></a>
+                    </section>
+                </div>
+                <div class="col-lg-4 col-xs-4 logoFooter--responsive paddingContentFooter borderDerecho">
+                    <img src="../img/logo.png" class="containerHeader__contenedorLogo__logo--tamanio img-fluid"
+                        alt="Logo footer">
+                </div>
+                <div class="col-lg-4 col-xs-4 contenedorDerechos paddingContentFooter">
+                    <p class="pFooter contenedorRedes">Developed by Gonzalo Noir© </p>
+                </div>
             </div>
-            <div class="col-lg-4 col-xs-4 contenedorDerechos">
-                <p class="pFooter">Derechos de Autor</p>
+            <div class="col-lg-12 logoFooter--responsive contenedorContacto">
+                <p class="pFooter"><a href="../views/contacto.html" class="pFooter">Contacto</a> | <a
+                        href="../views/nosotros.html" class="pFooter">Nosotros</a></p>
             </div>
-            <div class="col-lg-4 col-xs-4 contenedorContacto">
-                <a href="contacto.html" class="pFooter">Contacto</a>
-            </div>
-        </footer>
-        <!-- fin footer -->
-    </div>
-    
+        </div>
+    </footer>
+
+    <!-- fin footer -->
+
     <!-- scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
 </body>
+
 </html>

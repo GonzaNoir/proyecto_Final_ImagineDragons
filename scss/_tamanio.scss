@@ -46,6 +46,9 @@ $anchoLogo: 130px;
     @media only screen and (min-width: 0px) and (max-width: 767px){
         font-size: 50px;
     }
+    @media only screen and (min-width: 767px) and (max-width: 1025px){
+        font-size: 70px;
+    }
 }
 
 .contenedorContenido__contenedorHistoria__subTitulo--font{
@@ -105,8 +108,8 @@ $anchoLogo: 130px;
 }
 
 .contenedorNav__listaNavBar--font li a{
-    font-family: 'Lato', sans-serif, '100';
-    font-size: 25px;
+    font-family: 'DevilBreezeMedium';
+    font-size: 20px;
 }
 
 .pFooter{

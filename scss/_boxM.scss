@@ -94,7 +94,16 @@ $navSticky: sticky;
 }
 
 .borderDerecho{
-    border-right: 3px solid white;
+    border-right: 3px white;
+    border-right-style:groove;
+    @media screen and (min-width: 0px) and (max-width: 767px){
+        border-bottom: 3px groove white;
+        border-right: none;
+    }
+    @media screen and (min-width: 767px) and (max-width: 1025px){
+        border-bottom: 3px groove white;
+        border-right: none;
+    }
 }
 
 .borderBottom{

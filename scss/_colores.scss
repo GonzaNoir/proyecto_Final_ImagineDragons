@@ -76,17 +76,15 @@ p .palabrasOblicuas{
     font-style: oblique;
 }
 
-#navbarNav{
-    color: rgba(255, 255, 255, 0.89);
+#navbarNav ul li a{
+    color: rgb(255, 255, 255);
     &:hover{
-        color: rgb(255, 98, 7);
+        color: $colorTitulos;
     }
 }
 
-
-
-a .listaNavBar__local--color{
-    color:rgb(255, 98, 7);
+#navbarNav ul li .listaNavBar__local--color{
+    color:$colorTitulos;
     cursor: default;
     &:hover{
         text-decoration: none;
