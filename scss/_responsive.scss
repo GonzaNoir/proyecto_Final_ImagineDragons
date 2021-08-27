@@ -215,15 +215,15 @@ body{
         display: $flex;
         flex-direction: $row;
         align-items: center;
-        border: 2px white solid;
     }
 }
 
 
 @for $i from 1 through 3 {
     .contenedorGaleria__col#{$i}{
-        width: 100%/3;
+        width: 100%;
         height: 100%;
+        margin-bottom: 30px;
     }
 }
 
@@ -341,4 +341,26 @@ body{
     border: none;
     width:200px;
     cursor: pointer;
-  }
+}
+
+.contenedorGaleria__fila2 .galeria-wrap{
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+    margin: 0;
+}
+
+.contenedorGaleria__fila1 .galeria-wrap{
+    overflow: hidden;
+    position: relative;
+    border-radius: 6px;
+    margin: 0;
+}
+
+.contenedorGaleria__fila1 .galeria-wrap::after{
+    box-sizing: border-box;
+}
+
+.contenedorGaleria__fila2 .galeria-wrap::after{
+    box-sizing: border-box;
+}
