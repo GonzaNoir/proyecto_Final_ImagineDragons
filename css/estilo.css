@@ -57,7 +57,8 @@
 p .palabrasOblicuas {
   text-decoration: none;
   cursor: text;
-  font-style: oblique; }
+  font-style: oblique;
+  color: #ff8303; }
 
 #navbarNav ul li a {
   color: white; }
@@ -86,6 +87,9 @@ p .palabrasOblicuas {
 
 .pFooter {
   color: white; }
+
+.pCardNosotros {
+  color: #020202; }
 
 .contenedorContacto a {
   color: white;
@@ -180,6 +184,16 @@ p .palabrasOblicuas {
 .pFooter {
   font-family: 'DevilBreezeMedium';
   font-size: 20px; }
+
+.pCardNosotros {
+  font-family: 'Lato', sans-serif , '300';
+  font-size: 30px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .pCardNosotros {
+      font-size: 25px; } }
+
+.row div .textoFechaP {
+  font-family: 'DevilBreezeMedium'; }
 
 /*
 .contenedorNav li a{

@@ -286,7 +286,7 @@ body{
       background: -moz-linear-gradient(left,rgb(255, 131, 3)  0%,#1B1A17 100%) !important;
       background: -webkit-linear-gradient(left,rgb(255, 131, 3)  0%,#1B1A17 100%) !important;
       background: linear-gradient(to right,rgb(255, 131, 3)  0%,#1B1A17  100%) !important;
-      -webkit-background-clip: text !important;
+      //-webkit-background-clip: text !important;
       -webkit-text-fill-color: transparent !important;
   }
   
@@ -363,4 +363,11 @@ body{
 
 .contenedorGaleria__fila2 .galeria-wrap::after{
     box-sizing: border-box;
+}
+
+.fecha-flex{
+    display: $flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

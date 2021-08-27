@@ -74,6 +74,7 @@ p .palabrasOblicuas{
     text-decoration: none;
     cursor: text;
     font-style: oblique;
+    color: $colorTitulos;
 }
 
 #navbarNav ul li a{
@@ -113,6 +114,10 @@ p .palabrasOblicuas{
     color: rgb(255, 255, 255);
 }
 
+.pCardNosotros{
+    color: rgb(2, 2, 2);
+}
+
 .contenedorContacto a{
     color: rgb(255, 255, 255);
     transition: color 0.3s;
@@ -122,3 +127,4 @@ p .palabrasOblicuas{
     text-decoration: none;
     color: rgb(255, 98, 7);
 }
+
