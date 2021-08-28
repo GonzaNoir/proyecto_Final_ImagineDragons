@@ -21,7 +21,6 @@ $navSticky: sticky;
 
 .contenedorContenido__contenedorHistoria__subTitulo--boxM{
     padding-left: $paddingL_SubTitulo;
-    //padding-top: $paddingT_SubTitulo;
 }
 
 .contenedorContenido__contenedorHistoria__parrafoPrincipal--boxM{
@@ -38,7 +37,7 @@ $navSticky: sticky;
 }
 
 .contenedorContenido__contenedorMultimedia__fondoIndex--boxM{
-    border: 1px solid;
+    border-radius: 3px;
 }
 
 .contenedorNav__listaNavBar--boxM li a{
@@ -83,6 +82,15 @@ $navSticky: sticky;
     padding-bottom: 15px;
 }
 
+.paddingSeccionDisco{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @media screen and (min-width: 0px) and (max-width: 767px){
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
 .paddingFooter{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -108,4 +116,22 @@ $navSticky: sticky;
 
 .borderBottom{
     border-bottom: 1px solid white;
+}
+
+.bordePortada{
+    border-radius: 6px;
+}
+
+.spotify-I{
+    width: 350px;
+    height: 350px;
+    border-radius: 6px;
+    @media screen and (min-width: 0px) and (max-width: 767px){
+        width: 330px;
+        height: 330px;
+    }
+    @media screen and (min-width: 767px) and (max-width: 1025px){
+        width: 210px;
+        height: 210px;
+    }
 }

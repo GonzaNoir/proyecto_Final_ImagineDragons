@@ -286,7 +286,7 @@ body{
       background: -moz-linear-gradient(left,rgb(255, 131, 3)  0%,#1B1A17 100%) !important;
       background: -webkit-linear-gradient(left,rgb(255, 131, 3)  0%,#1B1A17 100%) !important;
       background: linear-gradient(to right,rgb(255, 131, 3)  0%,#1B1A17  100%) !important;
-      //-webkit-background-clip: text !important;
+      -webkit-background-clip: text !important;
       -webkit-text-fill-color: transparent !important;
   }
   
@@ -370,4 +370,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media only screen and (min-width: 0px) and (max-width: 767px){
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
 }
