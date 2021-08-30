@@ -44,10 +44,12 @@ $colorTextos:rgb(2, 2, 2);
 
 .seccionHistoria{
     background: rgb(163, 87, 9);
+    overflow-x: hidden;
 }
 
 .seccionPremios{
     background: rgb(240, 227, 202);
+    overflow-x: hidden;
 }
 
 .contenedorContenido{

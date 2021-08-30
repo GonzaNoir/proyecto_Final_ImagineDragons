@@ -34,10 +34,12 @@
   background-size: cover; }
 
 .seccionHistoria {
-  background: #a35709; }
+  background: #a35709;
+  overflow-x: hidden; }
 
 .seccionPremios {
-  background: #f0e3ca; }
+  background: #f0e3ca;
+  overflow-x: hidden; }
 
 .contenedorContenido {
   background-color: #8ef7a8; }
@@ -392,17 +394,20 @@ body {
 .contenedorGaleria__col1 {
   width: 100%;
   height: 100%;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  overflow-x: hidden; }
 
 .contenedorGaleria__col2 {
   width: 100%;
   height: 100%;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  overflow-x: hidden; }
 
 .contenedorGaleria__col3 {
   width: 100%;
   height: 100%;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  overflow-x: hidden; }
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .contenedorTabla {
@@ -590,6 +595,10 @@ body {
 .seccionTitulo {
   padding-top: 16.5%;
   padding-bottom: 16.5%; }
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+    .seccionTitulo {
+      padding-top: 0%;
+      padding-bottom: 0%; } }
 
 .paddingSeccion {
   padding-top: 15px;
@@ -622,6 +631,9 @@ body {
     .borderDerecho {
       border-bottom: 3px groove white;
       border-right: none; } }
+  @media screen and (min-width: 1023px) and (max-width: 1366px) {
+    .borderDerecho {
+      border-bottom: none; } }
 
 .borderBottom {
   border-bottom: 1px solid white; }
